@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Multiple Choice Question Test</title>
+    <meta name="description" content="A Multiple Choice Questions Set with 10 MCQs and Validation. It displays marks at the end of the test.">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Carme&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bodyContainer">
+
+        <div class="sidebar" id="leftSidebar">
+            <div class="sidebarContents">
+                <p><strong>By Sci-Pi Tutor</strong></p>
+                <button class="sidebarMenuButton">
+                    Home
+                </button>
+                <button id="sidebarMenuButton">
+                    About
+                </button>
+            </div>
+        </div>
+
+        <div class="main" id="main">
+
+            
+            <div class="mcqs-questions">
+                <meter id="myMeter" max="20" value="0"></meter>
+                
+                <div class="mcqs" id="mcq-1">
+                    <h2>The dimensions of Impulse is similar to that of</h2>
+                    <label id="opt1">
+                    <input type="radio">
+                        <span class="option-box"></span>
+                    <p>Force</p>
+                    </label>
+                    <label id="opt2">
+                        <input type="radio">
+                        <span class="option-box"></span>
+                    <p>Linear Momentum</p>
+                    </label>
+                    <label id="opt3">
+                        <input type="radio">
+                        <span class="option-box"></span>
+                        <p>Pressure</p>
+                    </label>
+                    <label id="opt4">
+                        <input type="radio">
+                        <span class="option-box"></span>
+                    <p>Angular Momentum</p>
+                    </label>
+                    <div id="correctoption">opt2</div>
+                    <div class="showAnswer">
+                        <span>
+                            <a href="https://www.scipitutor.com/ask/the-dimensions-of-impulse-is-similar-to-that-of-28209/">Explanation</a>
+                        </span>
+                    </div>
+                </div>
+                <hr />
+        
+                <div class="mcqs" id="mcq-2">
+                    <h2>A force	of 20N acts on a particle of mass 2 Kg and displaces it by 5m at and angle of 30o. What is the work done?</h2>
+                    <label id="opt1">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>40 J</p>
+                    </label>
+                        
+                    <label id="opt2">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>50 J</p>
+                    </label>	
+                        
+                    <label id="opt3">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>100 J</p>
+                    </label>	
+                        
+                    <label id="opt4">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>50 root 3 J</p>
+                    </label>	
+                        
+                    <div id="correctoption">opt4</div>
+                    <div class="showAnswer"><span>Explanation</span></div>
+                </div>
+                <hr>
+        
+                <div class="mcqs" id="mcq-3">
+                    <h2>An athlete runs some distance before taking a long jump because:</h2>
+                    <label id="opt1">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>It helps to apply large force</p>
+                    </label>	
+                        
+                    <label id="opt2">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>By running action and reaction force increases</p>
+                    </label>
+                    
+                    <label id="opt3">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>He gains energy to take him through long distance</p>
+                    </label>	
+                    
+                    <label id="opt4">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>By running the athelete gives himself larger inertia of motion</p>
+                    </label>	
+                    <div id="correctoption">opt4</div>
+                    <div class="showAnswer"><span>Explanation</span></div>
+                </div>
+                <hr>
+        
+                <div class="mcqs" id="mcq-4">
+                    <h2>If the radius of earth were to decrease by 1%, its mass remaining the same, the acceleration due to gravity on the surface of earth will:</h2>
+                    <label id="opt1">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Increase by 1%</p>
+                    </label>	
+                    <label id="opt2">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Decrease by 1%</p>
+                    </label>	
+                    <label id="opt3">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Decrease by 2%</p>
+                    </label>	
+                    <label id="opt4">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Increase by 2%</p>
+                    </label>	
+                    <div id="correctoption">opt4</div>
+                    <div class="showAnswer"><span>Explanation</span></div>
+                </div>
+                <hr>
+                
+                <div class="mcqs" id="mcq-5">
+                    <h2>The time period of a simple pendulum is doubled if</h2>
+                    <label id="opt1">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Its length is doubled</p>
+                    </label>	
+                    <label id="opt2">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Mass of the bob is doubled</p>
+                    </label>	
+                    <label id="opt3">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Its length is made four times</p>
+                    </label>	
+                    <label id="opt4">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Mass of bob is doubled and length of pendulum is also doubled</p>
+                    </label>	
+                    <div id="correctoption">opt3</div>
+                    <div class="showAnswer"><span>Explanation</span></div>
+                </div>
+                <hr>
+        
+                <div class="mcqs" id="mcq-6">
+                    <h2>A boat having a length 3m and breadth 2m is floating on a lake. The boat skinks by 1cm when a man gets on it. The mass of the man is</h2>
+                    <label id="opt1">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>60 Kg</p>
+                    </label>	
+                    <label id="opt2">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>72 Kg</p>
+                    </label>	
+                    <label id="opt3">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>12 Kg</p>
+                    </label>	
+                    <label id="opt4">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>128 Kg</p>
+                    </label>	
+                    <div id="correctoption">opt1</div>
+                    <div class="showAnswer"><span>Explanation</span></div>
+                </div>
+                <hr>
+        
+                <div class="mcqs" id="mcq-7">
+                    <h2>The correct value of 0oC on the Kelvin scale is</h2>
+                    <label id="opt1">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>273.15 K</p>
+                    </label>	
+                    <label id="opt2">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>272.85 K</p>
+                    </label>	
+                    <label id="opt3">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>273 K</p>
+                    </label>	
+                    <label id="opt4">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>273.2 K</p>
+                    </label>	
+                    <div id="correctoption">opt1</div>
+                    <div class="showAnswer"><span>Explanation</span></div>
+                </div>
+                <hr>
+        
+                <div class="mcqs" id="mcq-8">
+                    <h2>A solid ball of metal has a concentric spherical cavity within it. If the ball is heated, the volume of the cavity will:</h2>
+                    <label id="opt1">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Increase</p>
+                    </label>	
+                    <label id="opt2">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Decrease</p>
+                    </label>	
+                    <label id="opt3">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Remains unaffected</p>
+                    </label>	
+                    <label id="opt4">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>None of the above</p>
+                    </label>	
+                    <div id="correctoption">opt1</div>
+                    <div class="showAnswer"><span>Explanation</span></div>
+                </div>
+                <hr>
+        
+                <div class="mcqs" id="mcq-9">
+                    <h2>Two blocks of ice when pressed together join to form one block because:</h2>
+                    <label id="opt1">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Of heat produced during pressing</p>
+                    </label>	
+                    <label id="opt2">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Of cold produced during pressing</p>
+                    </label>	
+                    <label id="opt3">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Melting point of ice decrease with increase in pressure</p>
+                    </label>	
+                    <label id="opt4">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Melting point of ice increase with increase in pressure</p>
+                    </label>	
+                    <div id="correctoption">opt3</div>
+                    <div class="showAnswer"><span>Explanation</span></div>
+                </div>
+                <hr>
+                
+                <div class="mcqs" id="mcq-10">
+                    <h2>The ratio of the speed of a body to the speed of sound is called</h2>
+                    <label id="opt1">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Sonic index</p>
+                    </label>	
+                    <label id="opt2">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Doppler ratio</p>
+                    </label>	
+                    <label id="opt3">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Mach number</p>
+                    </label>	
+                    <label id="opt4">
+                        <input type="radio">
+                            <span class="option-box"></span>
+                            <p>Refractive index</p>
+                    </label>	
+                    <div id="correctoption">opt3</div>
+                    <div class="showAnswer"><span>Explanation</span></div>
+                </div>
+        
+            </div>
+        </div>
+
+        <div class="sidebar" id="rightSidebar">
+            <div class="sidebarContents">
+                <p>
+                    <strong>Our Services</strong>
+                </p>
+
+                <div id="scipitutor">
+                    <p>
+                        <strong>Sci-Pi Tutor</strong>
+                    </p>
+                    <a href="https://www.scipitutor.com/">
+                        Visit
+                    </a>
+                </div>
+
+                <div id="scipicalculus">
+                    <p>
+                        <strong>Sci-Pi Calculus</strong>
+                    </p>
+                    <a href="https://www.facebook.com/scipicalculus">Visit</a>
+                </div>
+
+                <div id="scipihostels">
+                    <p>
+                        <strong>Sci-Pi Hostels</strong>
+                    </p>
+                    <a href="https://www.hostels.scipitutor.com/">Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	
+
+</body>
+</html>
