@@ -1,0 +1,111 @@
+:root {
+    --primary: #1F1B24;
+    --secondary: #332940;
+    --base-font: "Poppins", sans-serif;
+    --success: #388e3c;
+    --error: #d32f2f;
+}
+
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: var(--base-font);
+}
+
+div.bodyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* sidebar */
+
+.sidebar {
+    width: 15%;
+    padding: 20px;
+    position: relative;
+}
+
+.main {
+    width: 60%;
+    margin: auto;
+}
+
+.sidebar > .sidebarContents {
+    position: fixed;
+    top: 0;
+    width: 15%;
+    overflow: auto;
+}
+
+/* #leftSidebar {} */
+
+.sidebar > .sidebarContents > button {
+    width: 100%;
+    font-family: var(--base-font);
+    color: whitesmoke;
+    background-color: var(--primary);
+    padding: 10px 5px;
+    border: 0;
+    margin-bottom: 5px;
+    border-radius: 5%;
+}
+
+a {
+    color:  inherit;
+}
+
+/* essentials for mcqs */
+
+
+label {
+    font-size: 16px;
+    min-width: 500px;
+}
+.correct {
+    background-color: var(--success);
+    border-radius: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.incorrect {
+    background-color: var(--error);
+    border-radius: 10px;
+}
+#correctoption {
+    display: none;
+}
+.disabled {
+    pointer-events: none;
+}
+.mcqs label p {
+    display: inline-block;
+}
+.mcqs label {
+    display: block;
+}
+.mcqs-questions {
+    margin: 0 10%;
+}
+
+.mcqs-questions > #myMeter {
+    width: 200px;
+}
+
+.showAnswer {
+    width: 100%;
+    text-align: right;
+}
+.mcqs h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.sticky_header {
+    position: fixed;
+    top:  100;
+}
+
